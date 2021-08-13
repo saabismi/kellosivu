@@ -6,15 +6,21 @@ html {
 }
 
 h1 {
-    text-align: center;
-    font-size: 40pt;
+    font-size: 60pt;
+    font-weight: normal;
 }
 
 main {
     display: flex;
     flex-direction: column;
+    height: 100%;
+    width:100%;
+    align-items: center;
+    justify-content: center;
 }
 
 section#clock {
     vertical-align: middle;
+    text-align: center;
+    width:100%;
 }
