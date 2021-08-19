@@ -25,7 +25,7 @@ function updateTime() {
     let timeString = hour + "." + minute + "." + second;
 
     let day = d.getDate();
-    let month = d.getMonth();
+    let month = d.getMonth() + 1;
     let year = d.getFullYear();
 
     let dateString = day + "." + month + "." + year;
