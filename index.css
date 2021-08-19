@@ -5,8 +5,12 @@ html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+body {
+    overflow: hidden;
+}
+
 h1 {
-    font-size: 60pt;
+    font-size: 150pt;
     font-weight: normal;
 }
 
@@ -24,3 +28,12 @@ section#clock {
     text-align: center;
     width:100%;
 }
+
+/* Media query pienelle näytölle, jotta kello on massiivinen */
+/* Ei toimi :D
+@media only screen and (max-width: 769px) {
+    h1 {
+        font-size: 50pt;
+    }
+  }
+  */
