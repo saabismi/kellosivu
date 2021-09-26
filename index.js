@@ -38,3 +38,17 @@ function updateTime() {
 }
 
 window.onload = updateTime();
+
+function changeColor(color) {
+    if(color == "red") {
+        document.body.style.backgroundColor = "#db2c4c";
+    } else if(color == "black") {
+        document.body.style.backgroundColor = "#000";
+    } else if (color == "violet") {
+        document.body.style.backgroundColor = "#2f2453";
+    } else if (color == "green") {
+        document.body.style.backgroundColor = "#08802a";
+    } else {
+        document.body.style.backgroundColor = "#2f2453";
+    }
+}
