@@ -1,10 +1,9 @@
-html {
+body {
+    margin:0;
+
     background-color: #2f2453;
     color: #efefef;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-body {
     overflow: hidden;
     margin:0;
 }
